@@ -14,6 +14,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:3000")
 public class MainController {
   private final TaskRepo taskRepo;
   private final ObjectMapper objectMapper;
